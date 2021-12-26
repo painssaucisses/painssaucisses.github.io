@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" />
+        <title>IMAGES | OR BOR</title>
+        <link rel="shortcut icon" href="library/icone.ico">
+
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="author" content="">
+
+        <meta property="og:image" content="library/thumbnail.jpg" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="" />
+        <meta property="og:title" content="" />
+        <meta property="og:description" content="" />
+        <meta property="og:author" content="" />
+        <meta property="og:keywords" content="" />
+    </head>
+    <body>
+        <header>
+            <p class="title">IMAGE<sup><i>s</i></sup><br>OR BOR</p>
+            <p class="sub">Annabelle Dupret</p>
+        </header>
+
+        <nav>
+            <a href="images"><img src="library/go.png">IMAGE<sup><i>s</i></sup></a>
+            <a href="orbor"><img src="library/go.png">OR BOR</a>
+            <a href="presse"><img src="library/go.png">PRESSE</a>
+            <a href="librairies"><img src="library/go.png">LIBRAIRIES</a>
+            <a href="commandes"><img src="library/go.png">COMMANDES</a>
+            <a href="festivals"><img src="library/go.png">FESTIVALS</a>
+        </nav>
+
+        <main>
+            <section>
+                <p class="head">IMAGE<sup><i>s</i></sup></p>
+                <p>IMAGE<sup><i>s</i></sup> est une société d’édition d’imagerie théorique en joint venture issue de la fusion du semeîon iconique et de l’eikôn sémiotique. Elle fut forgée en 2018 par Annabelle Dupret. OR BOR est sa revue brute.</p>
+
+                <div class="showroom">
+                    <img class="mySlides" src="library/images/index/show (1).webp">
+                    <img class="mySlides" src="library/images/index/show (2).webp">
+                    <img class="mySlides" src="library/images/index/show (3).webp">
+                    <img class="mySlides" src="library/images/index/show (4).webp">
+                    <img class="mySlides" src="library/images/index/show (5).webp">
+                    <img class="mySlides" src="library/images/index/show (6).webp">
+                    <img class="mySlides" src="library/images/index/show (7).webp">
+                    <img class="mySlides" src="library/images/index/show (8).webp">
+                    <img class="mySlides" src="library/images/index/show (9).webp">
+                </div>
+
+                <script>
+                    var myIndex = 0;
+                    carousel();
+                    function carousel() {
+                        var i;
+                        var x = document.getElementsByClassName("mySlides");
+                        for (i = 0; i < x.length; i++) {
+                            x[i].style.display = "none";  
+                        }
+                        myIndex++;
+                        if (myIndex > x.length) {myIndex = 1}    
+                            x[myIndex-1].style.display = "block";  
+                            setTimeout(carousel, 2000); // Change image every 2 seconds
+                        }
+                    </script>
+            </section>
+
+            <section>
+                <p class="head">OR BOR</p>
+                <p>IMAGE<sup><i>s</i></sup> est une société d’édition d’imagerie théorique en joint venture issue de la fusion du semeîon iconique et de l’eikôn sémiotique. Elle fut forgée en 2018 par Annabelle Dupret. OR BOR est sa revue brute, 1 A2 offset r/v couleur sur papier Munken 150g. 4 numéros/an, 1# = 1 artiste / 1 article / 1 biographie (fr/en) 1 œuvre en cover + 6 œuvres.</p>
+            </section>
+
+            <section>
+                <p class="head">CONTRIBUTEURS</p>
+                <p>Jean-Charles Andrieu de Levis | Auteur
+                <br>Adolpho Avril | Auteur
+                <br>Alex Barbier | Auteur
+                <br>Olivier Deprez | Auteur
+                <br>Benjamin Monti | Auteur
+                <br>Aarnoud Rommens | Auteur
+                <br>
+                <br>Annabelle Dupret | Auteure | Editrice | PAO
+                <br>
+                <br>Lorenz Ohrmer | Traduction
+                <br>Lucas Faugère | Traduction
+                <br>
+                <br>Xavier Löwenthal | Graphisme
+                <br>Baptiste Saint Levaux | Graphisme</p>
+            </section>
+
+            <section>
+                <p class="head">COMMANDES</p>
+                <p><a href="https://k1l.eproshopping.fr/1342097-benjamin-monti-rupture-fragments-avec-un-essai-de-jean-charles-andrieu-de-levis-editions-images-la-cinquieme-couche-sortie-librairie-mai-2021.html"><img src="library/go.png">K1L | BELGIQUE | PARTOUT | MONDE</a><br><br><a href="https://librairie-lame.com/editeur/images/"><img src="library/go.png">LIBRAIRIE LAME | FRANCE | PARTOUT | MONDE</a></p>
+            </section>
+
+            <section>
+                <p class="head">CONTACT</p>
+                <p><b>IMAGE<sup><i>s</i></sup> | OR BOR</b>
+                <br>Annabelle Dupret
+                <br>146, rue de la Victoire 1060 Bruxelles BELGIQUE
+                <br><a href="mailto:annabelledupret@gmail.com"><img src="library/go.png">annabelledupret@gmail.com</a></p>
+            </section>
+        </main>
+
+        <footer>
+            <p>IMAGE<sup><i>s</i></sup> | OR BOR<br>(c) 2022<br><a href="http://saint.cool"><img src="library/go.png">saint.cool</a></p>
+        </footer>
+    </body>
+</html>
