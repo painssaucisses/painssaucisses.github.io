@@ -1,8 +1,5 @@
 body{background: #d5d5d5; font-family: monospace; margin: 10px;}
-
-nav{position: sticky; top: 12px;}
-main{position: relative; top: -195px; margin-left: 200px; padding-right: 50px; max-width: 700px;}
-footer{position: sticky; bottom: 13px;}
+main{max-width: 700px;}
 
 section{margin-bottom: 50px;}
 
@@ -26,3 +23,13 @@ sup i{font-family: serif;}
 .duo img{text-align: center; float: left; width: 50%; height: 350px;} 
 
 .sep{height: 12px;}
+
+@media all and (min-width: 700px) {
+	nav{position: sticky; top: 12px;}
+	footer{position: sticky; bottom: 13px;}
+	main{position: relative; top: -195px; margin-left: 200px; padding-right: 50px;}
+}
+
+@media all and (max-width: 700px) {
+	nav{margin-bottom: 25px;}
+}
