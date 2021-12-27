@@ -19,8 +19,10 @@ sup i{font-family: serif;}
 .showroom{width: 100%; margin: 25px 0px 25px 0px;}
 .showroom img{width: 100%;}
 
-.duo{width: 100%; height: 350px; margin: 25px 0px 25px 0px;}
-.duo img{text-align: center; float: left; width: 50%; height: 350px;} 
+.duo{width: 100%; margin: 25px 0px 0px 0px;}
+.duo img{text-align: center; float: left; width: 50%; margin-bottom: 25px;} 
+
+.solo{width: 100%;}
 
 .sep{height: 12px;}
 
